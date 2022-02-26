@@ -76,7 +76,6 @@ GEM
     childprocess (4.1.0)
     concurrent-ruby (1.1.9)
     crass (1.0.6)
-    date (3.2.2)
     erubi (1.10.0)
     ffi (1.15.5)
     globalid (1.0.0)
@@ -107,15 +106,9 @@ GEM
       mongo (>= 2.7.0, < 3.0.0)
     msgpack (1.4.5)
     nio4r (2.5.8)
-    nokogiri (1.13.2)
+    nokogiri (1.13.3)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    nokogiri (1.13.2-x86_64-linux)
-      racc (~> 1.4)
-    open-uri (0.2.0)
-      stringio
-      time
-      uri
     public_suffix (4.0.6)
     puma (4.3.11)
       nio4r (~> 2.0)
@@ -183,19 +176,14 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
-    stringio (3.0.1)
     thor (1.2.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    time (0.2.0)
-      date
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
-    uri (0.11.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -218,7 +206,6 @@ GEM
 
 PLATFORMS
   ruby
-  x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
@@ -227,15 +214,12 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.2)
   mongoid (~> 7.0.5)
-  nokogiri (~> 1.6, >= 1.6.8)
-  open-uri
   puma (~> 4.1)
   rails (~> 6.0.4, >= 6.0.4.6)
   sass-rails (>= 6)
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
-  sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 3.3.0)
@@ -246,4 +230,4 @@ RUBY VERSION
    ruby 2.7.0p0
 
 BUNDLED WITH
-   2.2.21
+   2.1.2
