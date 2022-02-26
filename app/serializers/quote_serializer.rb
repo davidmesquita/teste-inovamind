@@ -17,6 +17,6 @@ class QuoteSerializer
   private
 
   def extract_tags(xml_doc)
-    xml_doc.css('a').to_a.drop(2).map{ |a_tag| a_tag.text }
+    xml_doc.css('a').to_a.drop(1).map{ |a_tag| a_tag.text }
   end
 end

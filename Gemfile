@@ -20,6 +20,9 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Use Json Web Token (JWT) for token based authentication
+gem 'jwt'
+
 # Mongo client to rails
 gem 'mongoid', '~> 7.0.5'
 
