@@ -1,12 +1,12 @@
 # README
 
 # Descrição do Teste
-Create a web crawler to search for a phrase at http://quotes.toscrape.com/.
-The information coming from the crawler must be made available by an API. This API should receive as
-parameter a tag and search for phrases that match this tag.
-The information extracted from the site must be saved in MongoDB, which will simulate a cache, where if the tag is already
-has been searched, it should return the data previously persisted in the database.
-Things you may want to cover:
+Crie um web crawler para efetuar uma busca de frases no site http://quotes.toscrape.com/.
+As infomações vindas do crawler devem ser disponibilizadas por uma API. Esta API deve receber como
+parâmetro uma tag e buscar por frases que estejam classificadas de acordo com esta tag.
+As informações extraidas do site devem ser salvas no MongoDB que simulará um cache, onde caso a tag já
+tenha sido pesquisada, deverá retornar os dados persistidos previamente no banco de dados
+
 
 # Particularidades da solução
 
